@@ -3,7 +3,7 @@ import logic.DefaultTextCleaner;
 import logic.TextCleaner;
 import ui.MainWindow;
 
-public class App {
+public class Main {
     public static void main(String[] args) throws Exception {
         SwingUtilities.invokeLater(() -> {
             TextCleaner cleaner = new DefaultTextCleaner();
